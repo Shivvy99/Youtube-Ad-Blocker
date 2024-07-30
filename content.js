@@ -1,6 +1,6 @@
 setInterval(function(){
-    var skipButtom = document.getElementsByClassName("ytp-ad-skip-button");
+    var skipButton = document.getElementsByClassName("ytp-ad-skip-button");
     if(skipButton){
-        skipButton[1].click();
+        skipButton[0].click();
     }
 }, 3000)
